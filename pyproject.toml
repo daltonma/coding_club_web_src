@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "src03"
+version = "0.1.0"
+description = ""
+authors = ["Dalton Ma <85321730+bohrium2b@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+django = "^5.1.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
